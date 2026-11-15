@@ -1,3 +1,4 @@
+
 "use client";
 import { managedCreators, site } from "@/content/site";
 import RiseText from "./RiseText";
@@ -26,7 +27,7 @@ export default function Creators() {
                 <p className="mt-1 text-sm leading-snug"><span className="placeholder-text !text-[1em]">{c.scope}</span></p>
                 <a href={c.reel} target="_blank" rel="noopener noreferrer"
                   className="mt-5 inline-block rounded-full bg-ink px-5 py-2.5 text-sm text-paper hover:bg-paper hover:text-ink">
-                  Watch a reel on Instagram<span className="sr-only"> (opens in a new tab)</span>
+                  Go Stalk Their Profile →<span className="sr-only"> (opens in a new tab)</span>
                 </a>
               </div>
             </article>
